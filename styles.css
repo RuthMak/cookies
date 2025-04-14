@@ -1,0 +1,40 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #fff8f0;
+  }
+  
+  .card {
+    transition: transform 0.3s;
+  }
+  
+  .card:hover {
+    transform: scale(1.03);
+  }
+  
+  .cookie-img {
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .extra-info {
+    display: none;
+  }
+  
+  .show-more {
+    color: #007bff;
+    cursor: pointer;
+    font-size: 0.9rem;
+  }
+  
+  .search-bar {
+    max-width: 500px;
+    margin: 30px auto;
+  }
+  
+  .no-results {
+    display: none;
+    text-align: center;
+    color: #888;
+    margin-top: 20px;
+  }
+  
