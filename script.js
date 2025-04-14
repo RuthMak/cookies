@@ -1,4 +1,3 @@
-// Toggle extra info
 document.querySelectorAll('.show-more').forEach(link => {
     link.addEventListener('click', () => {
       const extra = link.previousElementSibling;
@@ -12,7 +11,6 @@ document.querySelectorAll('.show-more').forEach(link => {
     });
   });
   
-  // Search functionality
   function filterCards() {
     const query = document.querySelector('input[type="search"]').value.toLowerCase();
     const cards = document.querySelectorAll('#cookie-cards .col');
